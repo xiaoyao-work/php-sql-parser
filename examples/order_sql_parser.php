@@ -8,7 +8,6 @@ function dump($array) {
   echo "</pre>";
 }
 
-
 $handle = @fopen("./order_sql.txt", "r");
 if ($handle) {
     $parser_array = array();

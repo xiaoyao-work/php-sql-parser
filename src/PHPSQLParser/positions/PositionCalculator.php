@@ -2,7 +2,7 @@
 /**
  * PositionCalculator.php
  *
- * This class implements the calculator for the string positions of the 
+ * This class implements the calculator for the string positions of the
  * base_expr elements within the output of the PHPSQLParser.
  *
  * PHP version 5
@@ -32,12 +32,12 @@
  * THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY, OR TORT
  * (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF
  * THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
- * 
+ *
  * @author    André Rothe <andre.rothe@phosco.info>
  * @copyright 2010-2014 Justin Swanhart and André Rothe
  * @license   http://www.debian.org/misc/bsd.license  BSD License (3 Clause)
  * @version   SVN: $Id$
- * 
+ *
  */
 
 namespace PHPSQLParser\positions;
@@ -46,12 +46,12 @@ use PHPSQLParser\exceptions\UnableToCalculatePositionException;
 use PHPSQLParser\utils\ExpressionType;
 
 /**
- * This class implements the calculator for the string positions of the 
+ * This class implements the calculator for the string positions of the
  * base_expr elements within the output of the PHPSQLParser.
  *
  * @author  André Rothe <andre.rothe@phosco.info>
  * @license http://www.debian.org/misc/bsd.license  BSD License (3 Clause)
- *  
+ *
  */
 class PositionCalculator {
 
@@ -95,7 +95,7 @@ class PositionCalculator {
 
     /**
      * Constructor.
-     * 
+     *
      * It initializes some fields.
      */
     public function __construct() {
