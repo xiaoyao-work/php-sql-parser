@@ -51,7 +51,7 @@ if (!defined('BRANCH')) define('BRANCH', 'master');
  *
  * @var string Full path including the trailing slash
  */
-if (!defined('TARGET_DIR')) define('TARGET_DIR', 'D:/softs/xampp/htdocs/php-sql-parser/');
+if (!defined('TARGET_DIR')) define('TARGET_DIR', '/var/www/php-sql-parser');
 
 /**
  * Whether to delete the files that are not in the repository but are on the

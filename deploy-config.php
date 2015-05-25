@@ -44,7 +44,7 @@ define('BRANCH', 'master');
  *
  * @var string Full path including the trailing slash
  */
-define('TARGET_DIR', 'D:/softs/xampp/htdocs/php-sql-parser/');
+define('TARGET_DIR', '/var/www/php-sql-parser');
 
 /**
  * Whether to delete the files that are not in the repository but are on the
@@ -79,7 +79,7 @@ define('EXCLUDE', serialize(array(
  *
  * @var string Full path including the trailing slash
  */
-define('TMP_DIR', 'D:/tmp/spgd-'.md5(REMOTE_REPOSITORY).'/');
+define('TMP_DIR', '/tmp/spgd-'.md5(REMOTE_REPOSITORY).'/');
 
 /**
  * Whether to remove the TMP_DIR after the deployment.
